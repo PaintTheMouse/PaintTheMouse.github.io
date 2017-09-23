@@ -17,7 +17,7 @@
             {% for post in site.posts limit:5 %}
                 <li>
                 <a href="{{site.baseurl}}{{ post.url }}" class="sidebar-recentPosts-image-wrapper">
-                    <img src="{{post.image}}" style="" alt="">
+                    <img src="{{site.baseurl}}/{{post.image}}" style="" alt="">
                 </a>
                 <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 <div class="postMeta">{{ post.date | date_to_string }}</div>
