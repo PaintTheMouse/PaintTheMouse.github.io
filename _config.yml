@@ -1,5 +1,5 @@
 #url: "https://paintthemouse.com" # the base hostname & protocol for your site
-baseurl: ""                     # the subpath of your site, e.g. /blog/
+baseurl: "paintthemouse.com"                     # the subpath of your site, e.g. /blog/
 baseurl_images: "/ptm-images/"
 #...
 title: Paint The Mouse
