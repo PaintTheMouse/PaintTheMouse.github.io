@@ -5,7 +5,10 @@
     </label>
 
     <nav role="navigation" class="sidebar sidebar--right bg-dark-gray">
-        <a href="/" class="textLogo--sidebar">{{ site.title }}</a>
+        <a href="{{site.baseurl}}/" class="link">
+            <div class="cover"><img src="{{site.baseurl}}/images/logo/text_1line_white.svg"></img>
+            </div>
+        </a>
         <ul class="sidebar-recentPosts">
             <li>Portfolios:</li>
             {% for portfolio in site.data.portfolio %}

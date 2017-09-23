@@ -743,7 +743,6 @@ template {
   padding: 10px 15px; }
 
 .textLogo--sidebar {
-  background-image: url("../images/logo/text_1line_white.svg");
   display: block;
   background-size: contain;
   background-repeat: no-repeat;
