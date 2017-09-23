@@ -23,7 +23,7 @@ layout: default
                     {% endif %}
                     <a href="{{site.baseurl}}{{ post.url }}" class="link">
                         <div class="shadow-4 shadow-hover">
-                            <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{ post.image}}');background-position: {{ post.offset }};"></div>
+                            <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{site.baseurl}}{{ post.image}}');background-position: {{ post.offset }};"></div>
                             <div class="pa3">
                                 <h3 class="f5 f3-l dark-gray ma0 fw3">{{ post.title }}</h3>
                                 <div class="f6 f5-l gray db pv2">{{ post.date | date_to_string }}</div>
@@ -47,7 +47,7 @@ layout: default
         <article class="center fl w-100 w-50-m w-33-l pb3 mb3 ph3-ns ">
             <a href="{{site.baseurl}}/{{portfolio.name}}.html" class="link">
                 <div class="shadow-4 shadow-hover">
-                    <div class="cover aspect-ratio aspect-ratio--1x1" style="background-image: url('{{ portfolio.image }}');background-position: {{ portfolio.offset }};">
+                    <div class="cover aspect-ratio aspect-ratio--1x1" style="background-image: url('{{site.baseurl}}{{ portfolio.image }}');background-position: {{ portfolio.offset }};">
                         <div class="aspect-ratio--object dt hide-child h-100">
                             <div class="dtc v-mid child f3 bg-black-40 tc white ttu tracked h-100">{{portfolio.name}}</div>
                         </div>
@@ -65,7 +65,7 @@ layout: default
         <div class="flex items-top flex-wrap">
             <article class="w-100 w-50-l ph3-ns pv2">
                 <div class="db aspect-ratio aspect-ratio--4x3">
-                    <div role="img" aria-label="Ray Murphy" style="background-image:url(images/ray.jpg);" class="bg-center cover aspect-ratio--object"></div>
+                    <div role="img" aria-label="Ray Murphy" style="background-image:url({{site.baseurl}}/images/ray.jpg);" class="bg-center cover aspect-ratio--object"></div>
                 </div>
             </article>
             <article class="w-100 w-50-l ph3-ns pa4 pa2-ns">
