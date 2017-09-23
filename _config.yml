@@ -1,5 +1,5 @@
-url: "https://gatesy666.github.io" # the base hostname & protocol for your site
-baseurl: "paintthemouse.com"                     # the subpath of your site, e.g. /blog/
+# url: "https://gatesy666.github.io" # the base hostname & protocol for your site
+# baseurl: "paintthemouse.com"                     # the subpath of your site, e.g. /blog/
 baseurl_images: "/ptm-images/"
 #...
 title: Paint The Mouse
