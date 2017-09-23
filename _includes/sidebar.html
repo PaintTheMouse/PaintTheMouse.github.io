@@ -9,17 +9,17 @@
         <ul class="sidebar-recentPosts">
             <li>Portfolios:</li>
             {% for portfolio in site.data.portfolio %}
-            <li class="gallery-link"><a href="/{{portfolio.name}}.html">{{portfolio.name}}</a></li>
+            <li class="gallery-link"><a href="{{site.baseurl}}/{{portfolio.name}}.html">{{portfolio.name}}</a></li>
             {% endfor %}
         </ul>
         <ul class="sidebar-recentPosts">
             <li>Recent Posts:</li>
             {% for post in site.posts limit:5 %}
                 <li>
-                <a href="{{ post.url }}" class="sidebar-recentPosts-image-wrapper">
+                <a href="{{site.baseurl}}{{ post.url }}" class="sidebar-recentPosts-image-wrapper">
                     <img src="{{post.image}}" style="" alt="">
                 </a>
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 <div class="postMeta">{{ post.date | date_to_string }}</div>
                 </li>
             {% endfor %}

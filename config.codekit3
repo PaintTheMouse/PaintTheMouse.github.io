@@ -5881,7 +5881,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "_site"
 	},
 "settingsFileVersion": "3"
 }

@@ -5,7 +5,7 @@ layout: default
 
 <article class="vh-50 vh-100-ns dt w-100 cover" style="background-image: url('{{site.banner_image}}')">
         <div class="dtc v-mid tc white ph3 ph4-l">
-          <img class="banner-title w-90" src="/images/logo/text_1line_white.png" alt="">
+          <img class="banner-title w-90" src="{{site.baseurl}}/images/logo/text_1line_white.png" alt="">
         </div>
 </article>
 
@@ -21,7 +21,7 @@ layout: default
                 {% else %}
                 <article class="fl w-100 w-50-m w-25-l pb3 ph3-ns mb3">
                     {% endif %}
-                    <a href="{{ post.url }}" class="link">
+                    <a href="{{site.baseurl}}{{ post.url }}" class="link">
                         <div class="shadow-4 shadow-hover">
                             <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{ post.image}}');background-position: {{ post.offset }};"></div>
                             <div class="pa3">
@@ -45,7 +45,7 @@ layout: default
         <h1 class="f2 f1-m f-headline-l fw2 mt4 tc">Portfolio</h1>
         {% for portfolio in site.data.portfolio %}
         <article class="center fl w-100 w-50-m w-33-l pb3 mb3 ph3-ns ">
-            <a href="{{portfolio.name}}.html" class="link">
+            <a href="{{site.baseurl}}/{{portfolio.name}}.html" class="link">
                 <div class="shadow-4 shadow-hover">
                     <div class="cover aspect-ratio aspect-ratio--1x1" style="background-image: url('{{ portfolio.image }}');background-position: {{ portfolio.offset }};">
                         <div class="aspect-ratio--object dt hide-child h-100">
