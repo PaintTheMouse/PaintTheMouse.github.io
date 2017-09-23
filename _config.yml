@@ -3,7 +3,7 @@ baseurl: "/paintthemouse.com"                     # the subpath of your site, e.
 baseurl_images: "/ptm-images/"
 #...
 title: Paint The Mouse
-banner_image: /ptm-images/water/water-7.jpg
+banner_image: ptm-images/water/water-7.jpg
 author:
   name:           	 Ray Murphy
 disqus_shortname: 'paintthemouse' # ignore this if not using Disqus

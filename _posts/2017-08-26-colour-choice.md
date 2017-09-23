@@ -2,7 +2,7 @@
 layout: post
 title:  Colour Choice
 date:   2017-08-26 19:00:00
-image: /ptm-images/how/how-colour-choice.jpg
+image: ptm-images/how/how-colour-choice.jpg
 feature-offset: bottom right
 offset: bottom right
 tags: colour paint how

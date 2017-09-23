@@ -591,7 +591,7 @@ template {
   position: fixed;
   z-index: 1100;
   top: 30px;
-  right: 3%;
+  right: 4%;
   width: 44px;
   height: 44px;
   overflow: hidden;
@@ -648,7 +648,8 @@ template {
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle-wrapper {
   position: fixed;
-  background-color: #333; }
+  background-color: #333;
+  margin-right: 1.5rem; }
 
 #sidebar-checkbox:checked ~ .sidebar-toggle-wrapper .sidebar-toggle {
   background: transparent; }
@@ -767,7 +768,6 @@ template {
   padding: 10px 15px; }
 
 .textLogo--sidebar {
-  background-image: url("/images/logo/text_1line_white.svg");
   display: block;
   background-size: contain;
   background-repeat: no-repeat;

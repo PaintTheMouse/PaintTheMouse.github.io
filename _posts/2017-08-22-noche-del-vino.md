@@ -2,7 +2,7 @@
 layout: post
 title:  Noche Del Vino
 date:   2017-08-22 20:02:00
-image: /ptm-images/misc/noche-del-vino.jpg
+image: ptm-images/misc/noche-del-vino.jpg
 feature-offset: center
 offset: top
 tags: Competa Spain
