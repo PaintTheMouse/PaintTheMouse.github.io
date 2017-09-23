@@ -9,7 +9,7 @@
 .sidebar {
   width: 14rem;
   visibility: hidden;
-  padding: 30px 20px;
+  // padding: 30px 20px;
 //   font-family: $title-secondary-font;
 //   font-size: $font-S;
   // background-color: $dark-gray;
@@ -70,7 +70,7 @@
   position: fixed;
   z-index: 1100;
   top: 30px;
-  right: 4%;
+  right: 2%;
   width: 44px;
   height: 44px;
   overflow: hidden;
@@ -156,7 +156,7 @@
   position: fixed;
   // background-color: rgba(black,0.8);
   background-color: #333;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
 #sidebar-checkbox:checked ~ .sidebar-toggle-wrapper .sidebar-toggle {
