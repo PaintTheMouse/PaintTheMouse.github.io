@@ -14,6 +14,6 @@ Each year at the Town Hall a design is chosen for the Noche del Vino poster and 
 
 I'm really pleased about it as the posters are quite collectible and are often seen in restaurants and bodegas in and area the town.
 
-![noche1](/ptm-images/misc/noche-del-vino.jpg){:class="mv2"}
+![noche1]({{site.baseurl}}/ptm-images/misc/noche-del-vino.jpg){:class="mv2"}
 
-![noche2](/ptm-images/misc/sur-in-english-noche.jpg){:class="mv2"}
+![noche2]({{site.baseurl}}/ptm-images/misc/sur-in-english-noche.jpg){:class="mv2"}
