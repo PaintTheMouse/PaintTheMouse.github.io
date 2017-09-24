@@ -1,4 +1,64 @@
 ---
-layout: how
+layout: default
 title: How I Work
 ---
+
+<section class="w-90 center cf">
+    <h1 class="tc f1-m f-headline-l fw2 mt4">{{ page.title }}</h1>
+
+    <div class="fl-ns">
+
+        <article class="pr3">
+            <h1 class="f4 bold mw6">Paint</h1>
+            <ul class="list pl0 ml0  mw6 ba b--light-silver br2">
+                <li class="ph3 pv3 bb b--light-silver">Mackeral Tabby</li>
+                <li class="ph3 pv3 bb b--light-silver">Burmese</li>
+                <li class="ph3 pv3 bb b--light-silver">Orange Tabby</li>
+                <li class="ph3 pv3 bb b--light-silver">Maine Coon</li>
+                <li class="ph3 pv3 bb b--light-silver">Siamese</li>
+                <li class="ph3 pv3 bb b--light-silver">Scottish Fold</li>
+                <li class="ph3 pv3">American Bobtail</li>
+            </ul>
+        </article>
+
+        <article class="pr3">
+            <h1 class="f4 bold mw6">Brushes</h1>
+            <ul class="list pl0 ml0  mw6 ba b--light-silver br2">
+                <li class="ph3 pv3 bb b--light-silver">Mackeral Tabby</li>
+                <li class="ph3 pv3 bb b--light-silver">Burmese</li>
+                <li class="ph3 pv3 bb b--light-silver">Orange Tabby</li>
+                <li class="ph3 pv3 bb b--light-silver">Maine Coon</li>
+                <li class="ph3 pv3 bb b--light-silver">Siamese</li>
+                <li class="ph3 pv3 bb b--light-silver">Scottish Fold</li>
+                <li class="ph3 pv3">American Bobtail</li>
+            </ul>
+        </article>
+
+    </div>
+
+    <div class="fl-ns">
+        <section class="mw7 center">
+            {% for post in site.posts %}
+            <article class="bb b--black-10">
+                <h1>{{post.tags}}</h1>
+                <a class="db pv4 ph3 ph0-l no-underline black dim" href="{{site.baseurl}}{{post.url}}">
+                    <div class="flex flex-column flex-row-ns">
+                        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                            <img src="{{site.baseurl}}/{{post.image}}" class="db" alt="">
+                        </div>
+                        <div class="w-100 w-60-ns pl3-ns">
+                            <h1 class="f3 fw1 mt0 lh-title">{{post.title}}</h1>
+                            <p class="f6 f5-l lh-copy">
+                                {{post.excerpt}}
+                            </p>
+                            <p class="f7 lh-copy mv0">By Ray Murphy - {{ post.date | date: "%a %b %d %Y" }}</p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </section>
+
+
+    </div>
+</section>

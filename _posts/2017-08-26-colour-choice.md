@@ -5,7 +5,7 @@ date:   2017-08-26 19:00:00
 image: ptm-images/how/how-colour-choice.jpg
 feature-offset: bottom right
 offset: bottom right
-tags: colour paint how
+tags: how i work
 ---
 
 A couple of years ago I realised I wasn't happy with my colour choice for my oil palette. So, I decided to put them all in a box and forget about them and concentrate more on a very limited palette to see if I could produce more harmonious pieces of work.

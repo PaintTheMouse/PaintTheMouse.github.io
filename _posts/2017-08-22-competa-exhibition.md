@@ -5,7 +5,7 @@ date:   2017-08-22 20:00:00
 image: ptm-images/misc/galeria-centro.jpg
 feature-offset: center 
 offset: top center
-tags: Competa Spain
+tags: exhibition
 ---
 
 So, my first exhibition since 1995. That one was in Barking Essex and went very well, in fact it was a sell out as I recall. So here I am again only 22 years later doing another one.

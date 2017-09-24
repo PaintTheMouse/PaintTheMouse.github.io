@@ -5,7 +5,7 @@ date:   2017-08-22 20:02:00
 image: ptm-images/misc/noche-del-vino.jpg
 feature-offset: center
 offset: top
-tags: Competa Spain
+tags: competition
 ---
 
 Competa has a fiesta to celebrate the Noche Del Vino ( night of the wine ) on the 15th August each year as Competa is famous for producing a very nice muscatel wine.
