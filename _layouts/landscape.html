@@ -9,7 +9,7 @@ layout: default
 
             {% for image in site.data.images %}
                 {% if image.landscape == 'y' %}
-                      <img src="{{image.image-thumb}}" data-full="{{ image.image }}" class="m-p-g__thumbs-img">
+                      <img src="{{site.baseurl}}/{{image.image-thumb}}" data-full="{{site.baseurl}}/{{ image.image }}" class="m-p-g__thumbs-img">
                 {% endif %}
             {% endfor %}
 
