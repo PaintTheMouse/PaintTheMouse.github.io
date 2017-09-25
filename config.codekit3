@@ -476,9 +476,9 @@
 		},
 	"\/How I Work.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/How I Work.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/images\/ico.ico\/android-icon-144x144.png": {
 		"ft": 32768,
