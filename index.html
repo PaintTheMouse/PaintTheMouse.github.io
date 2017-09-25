@@ -14,28 +14,49 @@ layout: default
     <div class="w-90-l center cf ph3-ns ">
         <h1 class="f2 f1-m f-headline-l fw2 mt4 tc">Blog</h1>
 
-        {% for post in site.posts limit:7 %} {% if forloop.index == 1 %}
+        {% for post in site.posts limit:7 %} 
+        {% if forloop.index == 1 %}
         <article class="fl w-100 pb3 ph3-ns mb3">
-            {% elsif forloop.index == 2 or forloop.index == 3 %}
-            <article class="fl w-100 w-50-ns pb3 ph3-ns mb3">
-                {% else %}
-                <article class="fl w-100 w-50-m w-25-l pb3 ph3-ns mb3">
-                    {% endif %}
-                    <a href="{{site.baseurl}}{{ post.url }}" class="link">
-                        <div class="shadow-4 shadow-hover">
-                            <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{site.baseurl}}/{{ post.image}}');background-position: {{ post.offset }};"></div>
-                            <div class="pa3">
-                                <h3 class="f5 f3-l dark-gray ma0 fw3">{{ post.title }}</h3>
-                                <div class="f6 f5-l gray db pv2">{{ post.date | date_to_string }}</div>
-                            </div>
-                        </div>
-                    </a>
-                </article>
-                {% endfor %}
-                <a class="link" href="posts.html">
-                    <p class="tc fw2 f4 f3-ns black">More...</p>
-                </a>
+            <a href="{{site.baseurl}}{{ post.url }}" class="link">
+                <div class="shadow-4 shadow-hover">
+                    <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{site.baseurl}}/{{ post.image}}');background-position: {{ post.offset }};"></div>
+                    <div class="pa3">
+                        <h3 class="f5 f3-l dark-gray ma0 fw3">{{ post.title }}</h3>
+                        <div class="f6 f5-l gray db pv2">{{ post.date | date_to_string }}</div>
+                    </div>
+                </div>
+            </a>
+        </article>
+        {% elsif forloop.index == 2 or forloop.index == 3 %}
+        <article class="fl w-100 w-50-ns pb3 ph3-ns mb3">
+            <a href="{{site.baseurl}}{{ post.url }}" class="link">
+                <div class="shadow-4 shadow-hover">
+                    <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{site.baseurl}}/{{ post.image}}');background-position: {{ post.offset }};"></div>
+                    <div class="pa3">
+                        <h3 class="f5 f3-l dark-gray ma0 fw3">{{ post.title }}</h3>
+                        <div class="f6 f5-l gray db pv2">{{ post.date | date_to_string }}</div>
+                    </div>
+                </div>
+            </a>
+        </article>
+        {% else %}
+        <article class="fl w-100 w-50-m w-25-l pb3 ph3-ns mb3">
+            <a href="{{site.baseurl}}{{ post.url }}" class="link">
+                <div class="shadow-4 shadow-hover">
+                    <div class="cover bg-center aspect-ratio aspect-ratio--16x9" style="background-image: url('{{site.baseurl}}/{{ post.image}}');background-position: {{ post.offset }};"></div>
+                    <div class="pa3">
+                        <h3 class="f5 f4-ns dark-gray ma0 fw3">{{ post.title }}</h3>
+                        <div class="f6 f5-ns gray db pv2">{{ post.date | date_to_string }}</div>
+                    </div>
+                </div>
+            </a>
+        </article>
+        {% endif %} 
+        {% endfor %}
     </div>
+    <a class="link cf" href="posts.html">
+            <p class="tc fw2 f4 f3-ns black">More...</p>
+    </a>
 </section>
 
 
