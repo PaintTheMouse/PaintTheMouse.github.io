@@ -17,30 +17,30 @@ title: How I Work
                     </a>
                 </li>
                 <li class="ph3 pv3 bb b--light-silver">
-                        <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
+                    <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
                             Magenta
                         </a>
-                    </li>
-                    <li class="ph3 pv3 bb b--light-silver">
-                            <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
+                </li>
+                <li class="ph3 pv3 bb b--light-silver">
+                    <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
                                 Winsor Yellow
                             </a>
-                        </li>
-                        <li class="ph3 pv3 bb b--light-silver">
-                                <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
+                </li>
+                <li class="ph3 pv3 bb b--light-silver">
+                    <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
                                     Lamp Black
                                 </a>
-                            </li>
-                            <li class="ph3 pv3 bb b--light-silver">
-                                    <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
+                </li>
+                <li class="ph3 pv3 bb b--light-silver">
+                    <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
                                         Titanium White
                                     </a>
-                                </li>
-                                <li class="ph3 pv3">
-                                        <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
-                                            WInsor&amp;Newton
+                </li>
+                <li class="ph3 pv3">
+                    <a class="link dim near-black" href="http://www.winsornewton.com/uk/shop/oil-colour/winton-oil-colour" target="_blank">
+                                            Winsor&amp;Newton
                                         </a>
-                                    </li>
+                </li>
             </ul>
         </article>
 
@@ -58,10 +58,9 @@ title: How I Work
 
     <div class="fl-ns">
         <section class="mw7 center">
-            {% for post in site.posts %}
-            {% if post.how == 'y' %}
+            {% for post in site.posts %} {% if post.how == 'y' %}
             <article class="bb b--black-10">
-                <a class="db pv4 ph3 ph0-l no-underline black dim" href="{{site.baseurl}}{{post.url}}">
+                <a class="db pv4 ph3 ph0-l no-underline black glow" href="{{site.baseurl}}{{post.url}}">
                     <div class="flex flex-column flex-row-ns">
                         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                             <img src="{{site.baseurl}}/{{post.image}}" class="db" alt="">
@@ -76,8 +75,7 @@ title: How I Work
                     </div>
                 </a>
             </article>
-            {% endif %}
-            {% endfor %}
+            {% endif %} {% endfor %}
         </section>
 
 
