@@ -1,4 +1,7 @@
 <head>
+    {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -9,8 +12,4 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/tachyons.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
     {% seo %}
-    {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
-    
 </head>
