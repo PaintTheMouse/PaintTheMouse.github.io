@@ -4,6 +4,7 @@ baseurl: ""
 baseurl_images: "ptm-images/"
 #...
 title: Paint The Mouse
+description: "A website for painter Ray Murphy"
 banner_image: "ptm-images/water/water-7.jpg"
 author:
   name:           	 Ray Murphy
